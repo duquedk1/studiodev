@@ -1,13 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .home-wrapper{
     background: url(/images/background.jpg) no-repeat center top;
     background-size: cover;
     color: white;
 }
-
 header{
     padding: 10px 0;
 }
-
 header img{
     width: 200px;
 }
@@ -15,7 +16,6 @@ header nav{
     float: right;
     margin-top: 10px;
 }
-
 header nav a{
     color: white;
     font-weight: bold;
@@ -31,8 +31,17 @@ header nav a.active{
     text-align: center;
     padding: 200px 0px 150px ;
 }
+#home h1{
+    font-size: 68px;
+    font-weight: normal;
+}
+
+#home p{
+    font-size: 24px;
+}
 .container{
     width: 992px;
     margin-left: auto;
     margin-right: auto;
 }
+
