@@ -3,6 +3,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
 }
 .home-wrapper{
 background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/images/background.jpg) no-repeat center top;
@@ -11,6 +13,9 @@ background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(/images/
 }
 header{
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(48, 48, 48, 0.5);
 }
 header img{
     width: 200px;
@@ -37,9 +42,18 @@ header nav a.active{
 #home h1{
     font-size: 68px;
     font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 40px;
+    
+}
+#home .divider{
+    width: 80px;
+    border-top: 5px solid #fed136;
+    margin: 0 auto;
 }
 #home p{
     font-size: 24px;
+    margin-top: 20px ;
 }
 #home .social{
     margin-top: 80px;
@@ -121,7 +135,6 @@ header nav a.active{
     line-height: 1px;
     font-weight: bold;
 }
-
 section{
     padding: 80px 0px;
 }
